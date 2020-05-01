@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Nguyen Vo: Blogs</title>
+        <script>
+        function greet()
+            {
+                let name = document.querySelector('#name').value;
+                if (name === '')
+                {
+                    name = 'world';
+                }
+                alert('Hi, ' + name + '! They are coming soon. Thanks!');
+            }
+        </script>
+    </head>
+    <body>
+        <!--Simple nav-->
+        <ul class="list-inline">
+
+            <!--Home-->
+            <li class="list-inline-item">
+                <a href="index.html">HOME</a>
+            </li>
+
+            <!--Project-->
+            <li class="list-inline-item">
+                <a href="project.html">PROJECTS</a>
+            </li>
+
+            <!--Directory-->
+            <li class="list-inline-item">
+                <a href="directory.html">DIRECTORY</a>
+            </li>
+
+            <!--Contact-->
+            <li class="list-inline-item">
+                <a href="contact.html">CONTACT</a>
+            </li>
+        </ul>
+        <br>
+
+        <form onsubmit="greet(); return false;">
+            <input type="text" id="name">
+            <input type="submit" value="Where are the blogs?">
+        </form>
+        <br>
+        <br>
+
+        <!--Simple nav-->
+        <ul class="list-inline">
+
+            <!--Home-->
+            <li class="list-inline-item">
+                <a href="index.html">HOME</a>
+            </li>
+
+            <!--Project-->
+            <li class="list-inline-item">
+                <a href="project.html">PROJECTS</a>
+            </li>
+
+            <!--Directory-->
+            <li class="list-inline-item">
+                <a href="directory.html">DIRECTORY</a>
+            </li>
+
+            <!--Contact-->
+            <li class="list-inline-item">
+                <a href="contact.html">CONTACT</a>
+            </li>
+        </ul>
+    </body>
+</html>
