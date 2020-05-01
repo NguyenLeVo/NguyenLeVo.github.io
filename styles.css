@@ -1,0 +1,39 @@
+.title
+{
+    font-family: cantana one;
+}
+
+body
+{
+    background-color: #0a1727;
+    color: white;
+    max-width: 56em;
+    margin-left: 2em;
+    font-family: catamaran ligh;
+}
+
+h1
+{
+    font-family: cantana one;
+}
+
+h4
+{
+    font-family: cantana one;
+}
+
+h5
+{
+    font-family: catamaran medium;
+}
+
+.content
+{
+    font-family: catamaran light;
+}
+
+table
+{
+  border: 2px solid white;
+  border-collapse: collapse;
+}
